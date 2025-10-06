@@ -32,7 +32,7 @@ class TUsuarios extends Migration
             ],
             'claveacceso' => [
                 'type'       => 'VARCHAR',
-                'constraint' => 255,   // <-- aumentar a 255
+                'constraint' => 255,   
                 'null'       => false,
             ],
             'nivelacceso' => [

@@ -15,7 +15,7 @@
 </head>
 <body>
 
-  <!-- 🔹 Navbar Global -->
+  <!-- Navbar Global -->
   <?php 
     $nombre = session()->get('nomusuario');
     $avatar = session()->get('avatar');
@@ -37,7 +37,7 @@
       </div>
   </nav>
 
-  <!-- 🔹 Contenido de cada vista -->
+  <!-- Contenido de cada vista -->
   <div class="container mt-4">
     <?= $this->renderSection('contenido') ?>
   </div>

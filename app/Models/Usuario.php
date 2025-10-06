@@ -15,7 +15,7 @@ class Usuario extends Model
         'correo',
         'nomusuario',
         'password',
-        'avatar',       // ⚠️ Campo que se usará al actualizar el avatar
+        'avatar',       // Campo que se usará al actualizar el avatar
         'create_at',
         'update_at'
     ];

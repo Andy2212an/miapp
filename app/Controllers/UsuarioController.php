@@ -25,7 +25,7 @@ class UsuarioController extends BaseController
             return redirect()->to(base_url('/'));
         }
 
-        // ✅ Guardamos los datos del usuario en la sesión
+        // Guardamos los datos del usuario en la sesión
         $session->set([
             'id'          => $usuario['id'],
             'nombres'     => $usuario['nombres'],
@@ -36,7 +36,7 @@ class UsuarioController extends BaseController
             'logged_in'   => true
         ]);
 
-        // ✅ Redirige al inicio (la página principal después del login)
+        // Redirige al inicio (la página principal después del login)
         return redirect()->to(base_url('/inicio'));
     }
 
